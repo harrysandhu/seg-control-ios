@@ -15,6 +15,7 @@
 		B586ABF925468494000BAED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B586ABF725468494000BAED7 /* LaunchScreen.storyboard */; };
 		B586AC0425468494000BAED7 /* SegControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586AC0325468494000BAED7 /* SegControlTests.swift */; };
 		B586AC0F25468494000BAED7 /* SegControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586AC0E25468494000BAED7 /* SegControlUITests.swift */; };
+		B586AC20254684AB000BAED7 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586AC1F254684AB000BAED7 /* Distance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B586AC0A25468494000BAED7 /* SegControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B586AC0E25468494000BAED7 /* SegControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegControlUITests.swift; sourceTree = "<group>"; };
 		B586AC1025468494000BAED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B586AC1F254684AB000BAED7 /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B586ABEB25468492000BAED7 /* SegControl */ = {
 			isa = PBXGroup;
 			children = (
+				B586AC1F254684AB000BAED7 /* Distance.swift */,
 				B586ABEC25468492000BAED7 /* AppDelegate.swift */,
 				B586ABEE25468492000BAED7 /* SceneDelegate.swift */,
 				B586ABF025468492000BAED7 /* ViewController.swift */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B586AC20254684AB000BAED7 /* Distance.swift in Sources */,
 				B586ABF125468492000BAED7 /* ViewController.swift in Sources */,
 				B586ABED25468492000BAED7 /* AppDelegate.swift in Sources */,
 				B586ABEF25468492000BAED7 /* SceneDelegate.swift in Sources */,
